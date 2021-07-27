@@ -462,7 +462,7 @@ hr {
   border-color: transparent;
 }
 
-.cta a, .cta a:visited {
+.cta a, .cta a:visited, .cta p {
   color: var(--text-contrast);
 }
 
