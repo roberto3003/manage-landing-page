@@ -364,6 +364,10 @@ hr {
   flex-wrap: wrap;
 }
 
+.flex > * > * {
+  margin-block-start: 0;
+}
+
 .column {
   flex-direction: column;
 }
@@ -542,6 +546,10 @@ hr {
  *************************************************************************** */
 
 /* Site specific */
+
+.h1 .bg-image {
+  background-image: url('./images/illustration-intro.svg');
+  }
 
 .point {
   display: grid;
