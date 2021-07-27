@@ -596,3 +596,24 @@ hr {
   height: 100%;
   margin-inline: auto;
 }
+
+aside {
+  background-color: var(--accent);
+  color: var(--text-contrast);
+  padding-block: var(--line-h);
+}
+
+aside .flex {
+  align-items: center;
+}
+
+aside > * > * {
+  margin-block: 0;
+}
+
+aside .button, aside .button:hover {
+  border-color: var(--text-contrast);
+  color: var(--text-contrast);
+}
+
+
