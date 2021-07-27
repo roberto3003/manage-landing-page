@@ -617,3 +617,35 @@ aside .button, aside .button:hover {
 }
 
 
+  .socials {
+	gap: 1em;
+  }
+
+  .socials li {
+	height: calc(var(--line-h)*1);
+	width: calc(var(--line-h)*1);
+  }
+
+  .footer .grid {
+	align-items: start;
+	min-height: calc(var(--line-h)*8);
+  }
+
+.footer .grid > * > * {
+  margin-block: calc(var(--line-h)*1);
+}
+
+.logo img {
+  margin-inline-start: 0;
+}
+
+.input {
+  flex-wrap: nowrap;
+  gap: 0;
+}
+
+.input > * {
+  height: var(--line-h);
+  min-height: initial;
+}
+
