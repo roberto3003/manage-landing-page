@@ -547,12 +547,18 @@ hr {
   display: grid;
   grid-template-columns: max-content auto;
   grid-template-rows: auto auto;
-  gap: var(--gap);
+  gap: var(--line-h);
+}
+
+.point > * {
+  margin: 0;
 }
 
 .point .button {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
+  height: var(--line-h);
+  align-self: center;
 }
 
 .point h3 {
